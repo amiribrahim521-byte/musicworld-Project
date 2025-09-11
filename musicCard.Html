@@ -6,58 +6,10 @@
   <title>MusicWorld - Home</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <style>
-    body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-header {
-  background: #222;
-  color: #fff;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-header a {
-  color: white;
-  text-decoration: none;
-}
-.banner {
-  text-align: center;
-  background: #444;
-  color: white;
-  padding: 50px 20px;
-}
-.section {
-  padding: 20px;
-}
-.card-container {
-  display: flex;
-  gap: 20px;
-}
-.card {
-  background: #f4f4f4;
-  padding: 20px;
-  border-radius: 8px;
-  flex: 1;
-  text-align: center;
-}
-footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-}
-
-  </style>
+  <link rel="stylesheet" href="stylemusicCard.Css">
+  <!-- JS file link -->
+  <script src="scriptmusicCard.js"></script>
+    
 </head>
 <body>
   <!-- Header -->
@@ -105,16 +57,7 @@ footer {
     <p>&copy; 2025 MusicWorld. All rights reserved.</p>
   </footer>
 
-  <script>
-    $(document).ready(function(){
-  // Example: Show alert when clicking on album card
-  $(".card").click(function(){
-    alert("Album details will open soon!");
-  });
-});
+  
 
-  </script>
-
-  <script src="js/script.js"></script>
 </body>
 </html>
